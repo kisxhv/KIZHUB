@@ -1,7 +1,3 @@
--- 🚀 KIZHUB - UNIVERSAL ROBLOX AIMBOT + ESP (Mobile Friendly)
--- Theme: Red & Black | Smooth Rounded Corners | SignalIS Logo Style
--- Features: Minimize (-), Close (X), Big toggles, Draggable
-
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local Workspace = game:GetService("Workspace")
@@ -297,6 +293,3 @@ RunService.RenderStepped:Connect(function()
     updateESP()
     aimbotLoop()
 end)
-
-print("🔴 KIZHUB Loaded! Now with SignalIS logo, Minimize & Close buttons")
-print("Drag the frame | Tap big buttons | Use at your own risk")
